@@ -75,4 +75,19 @@ h1 {
     line-height: 18.9px;
     line-height: 1.18125rem; }
 
+/* Media Object 
+-------------------------*/
+.media img {
+  height: 110px; }
+.media h4 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 24.3px;
+  line-height: 1.51875rem; }
+.media p {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 18.9px;
+  line-height: 1.18125rem; }
+
 /*# sourceMappingURL=main.css.map */

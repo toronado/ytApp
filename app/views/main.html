@@ -8,7 +8,8 @@
 		<div class="col-md-12">
 			<div class="card-columns">
 				<div class="card animated fadeIn" data-ng-repeat="video in videos">
-	  				<img class="card-img-top" data-ng-src="{{video.snippet.thumbnails.high.url}}" alt="{{video.snippet.channelTitle}}">
+	  				<!--img class="card-img-top" data-ng-src="{{video.snippet.thumbnails.high.url}}" alt="{{video.snippet.channelTitle}}"-->
+	  				<img class="card-img-top" data-ng-src="http://img.youtube.com/vi/{{video.id.videoId}}/mqdefault.jpg" alt="{{video.snippet.channelTitle}}">
 	  				<div class="card-block">
 	    				<h4 class="card-title">
 	    					<a href="https://www.youtube.com/watch?v={{video.id.videoId}}" target="_blank">
@@ -22,6 +23,20 @@
 	  				</div>
 				</div>
 			</div>
+			<!--div class="col-md-9">
+				<div class="media" data-ng-repeat="video in videos">
+					<div class="media-left">
+						<img class="media-object" data-ng-src="http://img.youtube.com/vi/{{video.id.videoId}}/mqdefault.jpg" alt="{{video.snippet.channelTitle}}">
+					</div>
+		  			<div class="media-body">
+		    			<h4 class="media-heading">
+		    				<a class="media-left" href="https://www.youtube.com/watch?v={{video.id.videoId}}">{{video.snippet.title}}</a>
+		    			</h4>
+		    			<p>{{video.snippet.description}}</p>
+		    			<p><small class="text-muted">{{video.snippet.channelTitle}} - {{video.snippet.publishedAt | date:"MMM d y"}}</small></p>
+		  			</div>
+				</div>
+			</div-->
 		</div>
 	</div>
 </div>

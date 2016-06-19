@@ -96,4 +96,18 @@ $fw: 600;
 		}
 	}
 
+/* Media Object 
+-------------------------*/
+	.media {
+		img {
+			height: 110px;
+		}
+		h4 {
+			@include font-size(18px);
+
+		}
+		p {
+			@include font-size(14px);
+		}
+	}
 
